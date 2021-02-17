@@ -27,7 +27,7 @@ RAM bool show_batt_or_humi;
 RAM bool temp_C_or_F;
 RAM bool blinking_smiley = false;
 RAM bool comfort_smiley = true;
-RAM bool show_batt_enabled = true;
+RAM bool show_batt_enabled = false;
 RAM bool advertising_type = false;//Custom or Mi Advertising (true)
 RAM uint8_t advertising_interval = 6;//advise new values - multiply by 10 for value
 RAM uint8_t measure_interval = 10;//time = loop interval * factor (def: about 7 * X)
